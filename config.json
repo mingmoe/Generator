@@ -1,5 +1,13 @@
 {
-  "tag": "错题",
-  "field": "正面",
-  "check_option": ""
+  "decks": [
+    {
+      "name": "高考::数学::错题",
+      "search_option": "added:5",
+      "found_image_at_field": "正面",
+      "found_string_at_field": "知识笔记",
+      "image_x": 561,
+      "image_y": 700
+    }
+  ],
+  "debug": false
 }

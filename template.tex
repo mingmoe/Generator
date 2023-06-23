@@ -1,0 +1,32 @@
+\documentclass[11pt,oneside,a4paper]{ctexart}
+
+\usepackage{layouts}
+\usepackage{xltxtra}
+
+% 引入图片
+\usepackage{graphicx}
+
+% 设置页边距
+\usepackage{geometry}
+\geometry{a4paper,left=0.25in,right=0.25in,top=0.25in,bottom=0.4in}
+\geometry{includeheadfoot=true}
+
+% 设置页眉，页脚
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{ \bfseries{}Powered by \XeLaTeX{} }
+\fancyfoot[L]{ \bfseries{} \thepage }
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+
+\author{\bfseries\slshape\sffamily{}Powered by MingMoe and \XeLaTeX{}}
+\title{\fontsize{40}{3}\bfseries\slshape\sffamily{}In a Severe Contest Between Intelligence, which Presses Forward, and An Unworthy, Timid Ignorance Obstructing Our Progress.}
+
+
+\begin{document}
+\maketitle
+\newpage{}
+\input{./input}
+\end{document}
